@@ -1,0 +1,32 @@
+body {
+  background: red;
+}
+h1 {
+  color: white;
+  position: absolute;
+  width: 693px;
+  height: 128px;
+  left: calc(50% - 693px / 2 - 1.5px);
+  top: 329px;
+
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 128px;
+}
+p {
+  position: absolute;
+  width: 462px;
+  height: 36px;
+  left: calc(50% - 462px / 2 - 1px);
+  top: 481px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+  text-align: center;
+  color: #272142;
+}

@@ -97,3 +97,8 @@ p {
 .app-link:hover {
   color: var(--dark-letter-color) !important;
 }
+.personal-footer {
+   text-align: center !important;
+    padding: 20px;
+    margin: 0 auto;
+}

@@ -1,32 +1,66 @@
+:root {
+  --branding-color: #6c63ff;
+  --default-font-family: "poppins", sans-serif;
+  --decor-font-family: "Playfair Display", serif;
+  --secondary-bg-color: #f9f7fe;
+}
+
 body {
   background: red;
+  font-family: var(--default-font-family);
 }
-h1 {
-  color: white;
-  position: absolute;
-  width: 693px;
-  height: 128px;
-  left: calc(50% - 693px / 2 - 1.5px);
-  top: 329px;
+.hero {
+  background: var(--secondary-bg-color);
+  text-align: center;
+  padding: 160px 20px;
+}
 
-  font-family: "Playfair Display";
+h1 {
+  font-family: var(--decor-font-family);
   font-style: normal;
   font-weight: 700;
+  color: #000000;
   font-size: 96px;
   line-height: 128px;
 }
+h2 {
+  font-style: normal;
+  font-weight: 700 bold;
+  color: #272142;
+  font-size: 36px;
+  line-height: 54px;
+}
 p {
-  position: absolute;
-  width: 462px;
-  height: 36px;
-  left: calc(50% - 462px / 2 - 1px);
-  top: 481px;
-  font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
+  color: #272142;
+}
+.hero p {
   font-size: 24px;
   line-height: 36px;
-  /* identical to box height */
-  text-align: center;
-  color: #272142;
+}
+.btn-branding a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 30px;
+  width: 200px;
+  height: 63px;
+  left: 618px;
+  top: 566px;
+}
+.start-btn button {
+  background: var(--branding-color) !important;
+  border: none !important;
+  border-radius: 4px;
+  padding: 15px 30px;
+}
+.btn-branding a {
+  color: #ffffff;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
 }
